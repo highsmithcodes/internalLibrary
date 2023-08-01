@@ -1,0 +1,23 @@
+{
+  "name": "internallibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highsmithcodes/internalLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highsmithcodes/internalLibrary/issues"
+  },
+  "homepage": "https://github.com/highsmithcodes/internalLibrary#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
