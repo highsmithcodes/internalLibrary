@@ -1,4 +1,4 @@
-import * as d3 from 'd3';
+// import * as d3 from 'd3';
 
 export function createBarChart(data, options) {
   // D3.js code to generate the bar chart based on the provided data and options
