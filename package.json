@@ -1,0 +1,30 @@
+{
+  "name": "internallibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highsmithcodes/internalLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highsmithcodes/internalLibrary/issues"
+  },
+  "homepage": "https://github.com/highsmithcodes/internalLibrary#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "jest": "^29.6.2"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ]
+  }
+}

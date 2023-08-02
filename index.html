@@ -1,17 +1,29 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Component Library</title>
+  <title>Data Dashboard Library Demo</title>
+  <link rel="stylesheet" href="src/styles.css">
 </head>
-
 <body>
-    <h1>test</h1>
-    <v-card
-      heading="V Card Heading"
-      subheading="V Card Subheading"
-    ></v-card>
+  <div class="chart-container" id="bar-chart-container"></div>
+  <script type="module">
+    import { createBarChart } from './src/barChart.js';
 
+    // Sample data for the bar chart
+    const data = [
+      { label: 'Category 1', value: 10 },
+      { label: 'Category 2', value: 20 },
+      { label: 'Category 3', value: 15 },
+      // Add more data points here
+    ];
+
+    // Options for the bar chart (e.g., width, height, colors, etc.)
+    const options = {
+      // Define options here
+    };
+
+    // Generate the bar chart
+    createBarChart(data, options);
+  </script>
 </body>
-
-<script src="./src/component.js"></script>
-
+</html>
